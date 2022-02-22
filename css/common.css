@@ -1,0 +1,38 @@
+body {
+	overflow-x: hidden;
+}
+/* 头部区域 */
+.header {
+	position: relative;
+	width: 100vw;
+	height: 240px;
+}
+.header img {
+	position: absolute;
+	width: 1920px;
+}
+.header img:last-child {
+	z-index: 999;
+	top: 40px;
+}
+
+/* 导航栏 */
+.nav {
+	display: flex;
+	justify-content: space-around;
+	width: 100vw;
+	height: 50px;
+	background-color: #0755a7;
+}
+.nav li {
+	width: 270px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 25px;
+}
+.nav li:hover {
+	background-color: skyblue;
+}
+.nav li a {
+	color: #ffffff;
+}

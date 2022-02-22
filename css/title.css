@@ -1,0 +1,31 @@
+.title {
+	position: relative;
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.title img {
+	position: absolute;
+}
+.title img:first-child {
+	left: 0;
+	top: 0;
+}
+.title img:last-child {
+	left: 150px;
+	top: 0;
+}
+.title .title_main {
+	position: absolute;
+	left: 50px;
+	top: 0;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-image: url(../images/title/active-center.png);
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 900;
+}

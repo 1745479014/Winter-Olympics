@@ -1,0 +1,214 @@
+.area {
+	width: 1240px;
+	height: 90px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.area img {
+	float: left;
+}
+.map {
+	position: relative;
+	width: 1240px;
+	height: 520px;
+	margin: 0 auto;
+	margin-top: 150px;
+	background-image: url(../images/三大赛区/北京赛区组图/北京赛区map.png);
+	background-size: 1240px 520px;
+}
+.map>h1 {
+	position: absolute;
+	color: #043383;
+	font-size: 39px;
+	top: -70px;
+	left: 0;
+}
+.map .text {
+	position: absolute;
+	height: 460px;
+	width: 410px;
+	top: 30px;
+	left: 100px;
+}
+.map .text li {
+	height: 460px;
+	width: 410px;
+	background-color: #FFFFFF;
+	text-align: center;
+	display: none;
+}
+.map .text li h1 {
+	color: #043383;
+}
+.map .text li img {
+	width: 350px;
+	margin-top: 10px;
+}
+.map .text li p {
+	font-size: 20px;
+	padding: 10px 30px;
+}
+.map .icon {
+	position: absolute;
+	top: 120px;
+	right: 286px;
+	width: 256px;
+	height: 256px;
+}
+.map .icon li img {
+	width: 30px;
+}
+.map .icon li {
+	position: absolute;
+	cursor: pointer;
+}
+.map .icon li:nth-child(1) {
+	top: 140px;
+	left: 15px;
+}
+.map .icon li:nth-child(2) {
+	top: 135px;
+	left: 75px;
+}
+.map .icon li:nth-child(3) {
+	top: 100px;
+	left: 80px;
+}
+.map .icon li:nth-child(4) {
+	top: 75px;
+	left: 100px;
+}
+.map .icon li:nth-child(5) {
+	top: 85px;
+	left: 130px;
+}
+.map .icon li:nth-child(6) {
+	top: 45px;
+	left: 140px;
+}
+.map .icon li:nth-child(7) {
+	top: 20px;
+	left: 120px;
+}
+.map .weather {
+	position: absolute;
+	top: 200px;
+	right: 510px;
+	width: 154px;
+	height: 48px;
+	background-image: url(../images/三大赛区/北京赛区组图/text.png);
+	color: #ef3f3f;
+	line-height: 48px;
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.map .weather img {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+/* 比赛项目 */
+.item {
+	position: relative;
+	width: 1240px;
+	height: 133px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+.item h1 {
+	position: absolute;
+	top: -60px;
+	left: 0;
+	font-size: 40px;
+	color: #043383;
+}
+.item .img {
+	width: 1240px;
+	height: 133px;
+	display: flex;
+	justify-content: space-between;
+}
+.item .img li {
+	position: relative;
+	width: 136px;
+	height: 133px;
+	transform-style: preserve-3d;
+	transition: all 2s;
+}
+.item .img li div {
+	position: absolute;
+	width: 136px;
+	height: 133px;
+	top: 0;
+	left: 0;
+}
+.item .img li .bottom {
+	background-image: url(../images/三大赛区/小背景.png);
+	transform: rotateY(180deg);
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 133px;
+	font-size: 20px;
+}
+.item .img li .up {
+	z-index: 999;
+}
+.item .img li:hover {
+	transform: rotateY(180deg);
+}
+.item .describe li {
+	position: relative;
+	width: 1240px;
+	height: 436px;
+	display: none;
+	margin-top: 150px;
+}
+.item .site li {
+	position: relative;
+	width: 1240px;
+	height: 538px;
+	display: none;
+	margin-top: 150px;
+}
+.item .site li:nth-child(1) {
+	background-image: url(../images/三大赛区/北京赛区组图/31.png);
+}
+.item .site li:nth-child(2) {
+	background-image: url(../images/三大赛区/北京赛区组图/32.png);
+}
+.item .site li:nth-child(3) {
+	background-image: url(../images/三大赛区/北京赛区组图/33.png);
+}
+.item .site li:nth-child(4) {
+	background-image: url(../images/三大赛区/北京赛区组图/34.png);
+}
+.item .site li:nth-child(5) {
+	background-image: url(../images/三大赛区/北京赛区组图/35.png);
+}
+.item .site li:nth-child(6) {
+	background-image: url(../images/三大赛区/北京赛区组图/36.png);
+}
+.item .site li:nth-child(7) {
+	background-image: url(../images/三大赛区/北京赛区组图/37.png);
+}
+.item .site li div {
+	position: absolute;
+	top: 45px;
+	left: 45px;
+	background-color: rgba(0,0,0,.6);
+	width: 400px;
+	height: 450px;
+}
+.item .site li div h2 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 40px;
+}
+.item .site li div p {
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 0 20px;
+	padding-top: 10px;
+}

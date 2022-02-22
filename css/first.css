@@ -1,0 +1,126 @@
+body {
+	overflow-x: hidden;
+}
+/* 轮播图 */
+.slideshow {
+	position: relative;
+	width: 100vw;
+	height: 156px;
+	margin-top: 50px;
+}
+.slideshow .slideshow_main {
+	position: relative;
+	width: 1200px;
+	height: 156px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.slideshow ul {
+	position: absolute;
+	width: 6000px;
+	height: 156px;
+}
+.slideshow ul li {
+	width: 100px;
+	height: 156px;
+	float: left;
+	margin-left: 57px;
+}
+.slideshow ul li:first-child {
+	margin-left: 0;
+}
+.slideshow ul li img {
+	width: 100px;
+	height: 100px;
+}
+.slideshow ul li p {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 15px;
+	color: #666666;
+}
+.button {
+	display: block;
+	width: 28px;
+	height: 50px;
+	position: absolute;
+	cursor: pointer;
+}
+.left_button {
+	background: url(../images/精灵图.png) -98px -351px no-repeat;
+	left: 300px;
+	top: 40px;
+}
+.right_button {
+	background: url(../images/右箭头.png) 0px -2px no-repeat;
+	right: 300px;
+	top: 40px;
+}
+.slideshow .slideshow_main .slideshow_ul li:hover {
+	cursor: pointer;
+}
+/* tab 栏切换 */
+.tab {
+	position: relative;
+	width: 100vw;
+	height: 600px;
+	background-color: #ebf2f8;
+}
+.tab .box {
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto;
+}
+.tab .out {
+	position: absolute;
+	width: 300px;
+	height: 500px;
+	left: 50%;
+	top: 75px;
+	margin-left: -150px;
+}
+.tab>.out>li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 500px;
+	display: none;
+	cursor: move;
+}
+.tab>.out>li:first-child {
+	display: block;
+}
+.tab .out li p {
+	background: #1c51ab;
+	width: 100%;
+	height: 55px;
+	text-align: center;
+	line-height: 55px;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+.tab .out li div {
+	background-color: #ffffff;
+	text-align: center;
+}
+.tab .out li div img {
+	width: 170px;
+	height: 170px;
+}
+.tab .out>li .in {
+	width: 300px;
+	height: 275px;
+	padding-top: 20px;
+	background-color: #FFFFFF;
+}
+.tab .out>li .in>li {
+	width: 300px;
+	height: 50px;
+	text-align: left;
+	line-height: 50px;
+	padding-left: 30px;
+	color: #666666;
+	font-size: 18px;
+} 

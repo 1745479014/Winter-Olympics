@@ -1,0 +1,91 @@
+/* 中国冬奥历史 */
+.tab {
+	width: 1200px;
+	height: 520px;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 100px;
+	background-color: #ebf2f8;
+}
+.tab .tab_header {
+	width: 1200px;
+	height: 60px;
+	background: url(../images/中国历史背景.png) no-repeat;
+	background-size: 1200px 60px;
+	cursor: pointer;
+}
+.tab .tab_header h4 {
+	width: 50px;
+	font-size: 24px;
+	font-family: "Microsoft YaHei";
+	font-weight: normal;
+	color: #FFF;
+	line-height: 60px;
+	margin-left: 18px;
+	margin-right: 20px;
+	float: left;
+}
+.tab .tab_header .tab_ul {
+	float: left;
+	display: flex;
+	justify-content: space-around;
+	width: 1112px;
+	height: 60px;
+}
+.tab .tab_header .tab_ul li {
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: bold;
+	width: 90px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+.tab .tab_main .tab_bottom_ul li {
+	position: relative;
+	width: 100vw;
+	height: 460px;
+	display: none;
+}
+.tab .tab_main .tab_bottom_ul li div {
+	width: 600px;
+	height: 460px;
+	float: left;
+}
+.tab .tab_main .tab_bottom_ul li div img {
+	position: absolute;
+	width: 560px;
+	height: 373px;
+}
+.tab .tab_main .tab_bottom_ul li div img:first-child {
+	top: 30px;
+	left: 20px;
+	z-index: 999;
+}
+.tab .tab_main .tab_bottom_ul li div img:last-child {
+	top: 40px;
+	left: 30px;
+}
+.tab .tab_main .tab_bottom_ul li .dotext h5,
+.tab .tab_main .tab_bottom_ul li .dotext p {
+	text-align: center;
+	font-size: 18px;
+}
+.tab .tab_main .tab_bottom_ul li .dotext h5 {
+	font-size: 22px;
+	font-family: "Microsoft YaHei";
+	font-weight: bold;
+	color: #333333;
+	line-height: 24px;
+	margin-top: 30px;
+}
+.tab .tab_main .tab_bottom_ul li .dotext p:first-of-type {
+	margin: 40px 0;
+}
+.tab .tab_main .tab_bottom_ul li .dotext p:last-of-type {
+	text-align: left;
+	padding: 5px 20px 0 15px;
+} 
+.choise {
+	background-color: #0b3d92;
+}
